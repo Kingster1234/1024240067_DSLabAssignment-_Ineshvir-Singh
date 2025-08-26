@@ -22,7 +22,7 @@ void transpose(Term a[], Term b[]) {
     }
 }
 
-// Addition and multiplication 
+
 int main() {
     Term a[MAX] = {{3,3,3}, {0,0,5}, {1,1,8}, {2,2,9}};
     Term b[MAX];
