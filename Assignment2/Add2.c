@@ -27,18 +27,3 @@ bool canSplit(char s[]) {
     }
     return false;
 }
-
-int main() {
-    int t;
-    scanf("%d", &t);  
-    while (t--) {
-        char s[1005];
-        scanf("%s", s);
-
-        if (canSplit(s))
-            printf("YES\n");
-        else
-            printf("NO\n");
-    }
-    return 0;
-}
