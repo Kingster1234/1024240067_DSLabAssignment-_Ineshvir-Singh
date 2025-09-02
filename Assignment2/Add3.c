@@ -25,16 +25,5 @@ bool areAnagrams(char str1[], char str2[]) {
 int main() {
     int t;
     scanf("%d", &t);  
-
-    while (t--) {
-        char str1[1005], str2[1005];
-        scanf("%s %s", str1, str2);
-
-        if (areAnagrams(str1, str2))
-            printf("YES\n");
-        else
-            printf("NO\n");
-    }
-
     return 0;
 }
